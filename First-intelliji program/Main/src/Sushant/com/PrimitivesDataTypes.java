@@ -8,6 +8,6 @@ public class PrimitivesDataTypes {
         double largeDecimalNumbers =234234.23243242;
         long largeIntegersValues=232432542344342L;
         boolean check =true;
-         
+
     }
 }

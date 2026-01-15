@@ -41,8 +41,42 @@ public class Practice{
 
         // System.out.println("Simple interest is: "+simpleInterest);
 
-        
+        // Take in two numbers and an operator (+, -, *, /) and calculate the value. (Use if conditions)
 
+        // System.out.println("enter a first number: ");
+        // int a = scanner.nextInt();
+        // System.out.println("Enter a second number: ");
+        // int b=scanner.nextInt();
+        // System.out.println("Enter operator +,-,*,/");
+        // String operator=scanner.nextLine();
+        // if(operator=="+"){
+        //     System.out.println(a+b);
+        // }
+
+        // else if (operator=="-"){
+        //     System.out.println(a-b);
+        // }
+
+        // else if(operator=="*"){
+        //     System.out.println(a*b);
+        // }
+
+        // else if(operator=="/"){
+        //     System.out.println(a/b);
+        // }
+
+// Input currency in rupees and output in USD.
+        // System.out.println("Enter amount in USD $");
+        // double m = scanner.nextDouble();
+        // double npr;
+        // npr= m*144.54d;
+        // System.out.println(m+" $ = NPR "+npr);
+
+
+        // To calculate Fibonacci Series up to n numbers.
+
+        
+        
 
 
         

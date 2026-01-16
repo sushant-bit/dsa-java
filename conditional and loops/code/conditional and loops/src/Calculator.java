@@ -7,9 +7,11 @@ public class Calculator {
         int ans =0;
         while(true) {
 //            Take the operator as input
+            System.out.print("Enter the operator: ");
             char s = in.next().trim().charAt(0);
             if(s == '+' || s == '-' || s=='*'|| s=='/' || s=='%'){
                 //input two numnber
+                System.out.print("Enter two numbers:");
                 int num1= in.nextInt();
                 int num2 = in.nextInt();
 
@@ -44,7 +46,9 @@ public class Calculator {
             else {
                 System.out.println("Invalid Operation!!!!!!!");
             }
+
+            System.out.println(ans);
         }
-        System.out.println(ans);
+
     }
 }

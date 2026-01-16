@@ -7,11 +7,16 @@ public class Loops {
 //        for (int i=1;i<=num;i++){
 //            System.out.println(i);
 //        }
-        int n=1;
 
-        while(n<=num){
+
+//        while(n<=num){
+//            System.out.println(n);
+//            n++;
+//        }
+        int n=1;
+        do{
             System.out.println(n);
             n++;
-        }
+        }while (n<=num);
     }
 }

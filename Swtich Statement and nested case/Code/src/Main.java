@@ -8,6 +8,20 @@ public class Main {
         System.out.println("Enter fruits name: ");
         String fruits= in.next();
 
-       
+       switch (fruits){
+           case "mango":
+               System.out.println("King of fruits");
+               break;
+           case "apple":
+               System.out.println("A sweet red fruit");
+               break;
+           case "Orange":
+               System.out.println("Round fruit");
+               break;
+           default:
+               System.out.println("Please enter a valid fruit");
+
+
+       }
     }
 }

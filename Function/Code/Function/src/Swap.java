@@ -6,7 +6,10 @@ public class Swap {
 //        int temp=a;
 //        a=b;
 //        b=temp;
-        swap(2,3);
+//        swap(2,3);
+        String name = "Sushant";
+        naaam(name);
+        
     }
 
     static void swap(int a,int b){
@@ -14,6 +17,11 @@ public class Swap {
         a=b;
         b=temp;
         System.out.println(a+" = a "+b+" = b");
+    }
+
+    static void naaam(String naaamu){
+        String naamu="Jiru";
+        System.out.println(naaamu);
     }
 
 

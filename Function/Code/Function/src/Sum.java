@@ -1,5 +1,5 @@
-public class Function {
+public class Sum {
     public static void main(String[] args) {
-
+        
     }
 }

@@ -9,7 +9,7 @@ public class Swap {
 //        swap(2,3);
         String name = "Sushant";
         naaam(name);
-        
+
     }
 
     static void swap(int a,int b){

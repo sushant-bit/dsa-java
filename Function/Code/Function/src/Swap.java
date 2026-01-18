@@ -15,7 +15,7 @@ public class Swap {
     static void swap(int a,int b){
         int temp =a;
         a=b;
-        b=temp;
+        b=temp;  // this change will only valid in this function scope only
         System.out.println(a+" = a "+b+" = b");
     }
 

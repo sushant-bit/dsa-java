@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Input {
@@ -17,13 +18,15 @@ public class Input {
            arr[i]=sc.nextInt();
         }
 
+        System.out.print(Arrays.toString(arr));
+
 //        for (int i = 0; i < arr.length; i++) {
 //            System.out.print(arr[i]+" ");
 //        }
-
-        for(int num: arr){// for every element in array print the element
-            System.out.println(num);//here num represent the element of an array
-        }
+//
+//        for(int num: arr){// for every element in array print the element
+//            System.out.println(num);//here num represent the element of an array
+//        }
 
     }
 }

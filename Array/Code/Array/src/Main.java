@@ -12,7 +12,7 @@ public class Main {
         int[] roll; //declaration on an array. roll is getting define in the stack
         roll = new int[5]; // initialization actually here object is being created in the memory/heap memory
         String[] name = new String[10];
-        System.out.println(roll[4]+" "+name[3]);
+        System.out.println(roll[4]+" "+name[3 ]);
 
     }
 }

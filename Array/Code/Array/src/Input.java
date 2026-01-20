@@ -15,8 +15,7 @@ public class Input {
         int[] arkoarr= new int[5];
         for (int i = 0; i < arkoarr.length; i++) {
             arr[i]=sc.nextInt();
-            System.out.println(i);
-            System.out.println(i+4);
+           
         }
 
 

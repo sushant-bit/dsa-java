@@ -12,6 +12,12 @@ public class Input {
          arr[1]=2334;
         System.out.println(arr[1]);
 
+        int[] arkoarr= new int[5];
+        for (int i = 0; i < arkoarr.length; i++) {
+            
+
+        }
+
 
         // input using for loops
         for (int i = 0; i < arr.length; i++) {

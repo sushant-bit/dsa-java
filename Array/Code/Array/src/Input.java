@@ -7,6 +7,8 @@ public class Input {
         System.out.println("Enter how many data should be array have: ");
         int numdalo= sc.nextInt();
 
+        //array of primitive data type
+
          int[] arr = new int[numdalo];
          arr[0]=23;
          arr[1]=2334;
@@ -15,7 +17,7 @@ public class Input {
         int[] arkoarr= new int[5];
         for (int i = 0; i < arkoarr.length; i++) {
             arr[i]=sc.nextInt();
-           
+
         }
 
 

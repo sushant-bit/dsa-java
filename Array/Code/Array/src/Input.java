@@ -44,6 +44,8 @@ public class Input {
             
         }
 
+        str[0]="puku";
+
         System.out.println(Arrays.toString(str));
 
     }

@@ -1,0 +1,2 @@
+public class PassingInFunction {
+}

@@ -33,12 +33,18 @@ public class MultiDimesion {
             for (int col = 0; col < array[row].length; col++) {
                 array[row][col]=in.nextInt();
             }
-
         }
-
-
         //output
-        
+//        for (int row = 0; row < array.length; row++) {
+//            for (int col = 0; col < array[row].length; col++) {
+//                System.out.print(array[row][col]+" ");
+//            }
+//            System.out.println();
+//        }
+
+        for (int row = 0; row < array.length; row++) {
+            System.out.println(Arrays.toString(array[row]));
+        }
         //enhance loop
 //        for (int[] a: array){
 //            System.out.println(Arrays.toString(a));

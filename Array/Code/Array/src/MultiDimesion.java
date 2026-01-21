@@ -27,6 +27,15 @@ public class MultiDimesion {
 
         // creating new 2d array
 
+        int [][] array= new int[3][3];
+
+        for (int row = 0; row < array.length; row++) {
+            for (int col = 0; col < array[row].length; col++) {
+                array[row][col]=in.nextInt();
+            }
+
+        }
+
 
 
 

@@ -5,6 +5,10 @@ public class MultiDimesion {
     public static void main(String[] args) {
 
         Scanner in = new Scanner(System.in);
+        System.out.print("Row dalo");
+        int rows = in.nextInt();
+        System.out.print("Column dalo");
+        int column = in.nextInt();
         /*
         1 2 3
         4 5 6
@@ -27,7 +31,7 @@ public class MultiDimesion {
 
         // creating new 2d array
 
-        int [][] array= new int[3][3];
+        int [][] array= new int[rows][column];
         // this is for user input process
         for (int row = 0; row < array.length; row++) {
             for (int col = 0; col < array[row].length; col++) {
@@ -45,6 +49,7 @@ public class MultiDimesion {
         for (int row = 0; row < array.length; row++) {
             System.out.println(Arrays.toString(array[row]));
         }
+
         //enhance loop
 //        for (int[] a: array){
 //            System.out.println(Arrays.toString(a));

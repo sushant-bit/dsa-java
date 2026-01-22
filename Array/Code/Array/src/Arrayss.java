@@ -9,6 +9,10 @@ public class Arrayss {
         System.out.print("Enter a column: ");
         int column = sc.nextInt();
         int[][] matrix = new int[rows][column];
-        System.out.print(Arrays.toString(matrix));
+        System.out.println(matrix.length);
+
+        for (int row = 0; row < matrix.length; row++) {
+
+        }
     }
 }

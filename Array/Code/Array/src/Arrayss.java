@@ -1,6 +1,13 @@
+import java.util.Scanner;
+
 public class Arrayss {
     public static void main(String[] args) {
-        int[][] matrix = new int[2][];
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a row: ");
+        int rows = sc.nextInt();
+        System.out.print("Enter a column: ");
+        int column = sc.nextInt();
+        int[][] matrix = new int[rows][column];
         System.out.println(matrix);
     }
 }

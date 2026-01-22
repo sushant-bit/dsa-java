@@ -25,10 +25,7 @@ public class Arrayss {
 
         for (int row = 0; row < matrix.length; row++) {
             //this is loop is for column section
-            for (int col = 0; col < matrix[row].length; col++) {
-                System.out.print(matrix[row][col]+" ");
-            }
-            System.out.println();
+            System.out.println(Arrays.toString(matrix[row]));
         }
 
     }

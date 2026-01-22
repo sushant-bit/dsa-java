@@ -17,7 +17,7 @@ public class Practice {
                 newArray[row][col]= sc.nextInt();
             }
         }
-    //step to show output
+    //step to show output on screen
 
         for (int row = 0; row < newArray.length; row++) {
             System.out.println(Arrays.toString(newArray[row]));

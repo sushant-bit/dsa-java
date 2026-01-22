@@ -10,7 +10,7 @@ public class Practice {
         int column= sc.nextInt();
         int[][] newArray = new int[rows][column];
 
-        //step to take 
+        //step to take input from user
 
         for (int row = 0; row < newArray.length; row++) {
             for (int col = 0; col < newArray[row].length; col++) {

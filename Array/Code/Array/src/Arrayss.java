@@ -23,9 +23,9 @@ public class Arrayss {
 
         //this process is for printing the output
 
-        for (int[] ints : matrix) {
+        for (int row = 0; row < matrix.length; row++) {
             //this is loop is for column section
-            System.out.println(Arrays.toString(ints));
+            System.out.println(Arrays.toString(matrix[row]));
         }
 
     }

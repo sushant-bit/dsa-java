@@ -10,8 +10,9 @@ public class Arrayss {
         int column = sc.nextInt();
         int[][] matrix = new int[rows][column];
         System.out.println(matrix.length);
-
+        // this first loop is used to loop in row section
         for (int row = 0; row < matrix.length; row++) {
+
 
         }
     }

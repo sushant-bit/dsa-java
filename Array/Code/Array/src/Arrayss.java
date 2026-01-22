@@ -12,6 +12,8 @@ public class Arrayss {
         System.out.println(matrix.length);
         // this first loop is used to loop in row section
         for (int row = 0; row < matrix.length; row++) {
+            //this is loop is for column section
+            
 
 
         }

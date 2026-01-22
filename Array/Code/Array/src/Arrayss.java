@@ -12,14 +12,17 @@ public class Arrayss {
         System.out.println(matrix.length);
 
         //this process is for taking input from the user
-        
+
         // this first loop is used to loop in row section
         for (int row = 0; row < matrix.length; row++) {
             //this is loop is for column section
             for (int col = 0; col < matrix[row].length; col++) {
                 matrix[row][col]=sc.nextInt();
             }
-
         }
+
+        //this process is for printing the output
+
+        
     }
 }

@@ -28,5 +28,6 @@ public class Arrayss {
             System.out.println(Arrays.toString(matrix[row]));
         }
 
+
     }
 }

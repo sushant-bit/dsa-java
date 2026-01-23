@@ -1,15 +1,18 @@
 public class Max {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,4,5,6};
-        System.out.println(max(arr));
+        int[] arr = new int[2];
+       
+        System.out.println(maxval(arr));
     }
+//imagine that arrray is not empty
+    static int maxval(int[] arr){
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++) {
 
-    static int main(int[] arr){
-        for (int i = 0; i < arr.length; i++) {
-            int max = arr[0];
-            if (max>arr[i]){
+            if (max<arr[i]){
                 max=arr[i];
             }
         }
+        return max;
     }
 }

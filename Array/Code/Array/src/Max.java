@@ -28,9 +28,9 @@ public class Max {
 
 
     //max value in the range
-    static int maxvalinRange(int[] arr){
-        int max = arr[0];
-        for (int i = 1; i < arr.length; i++) {
+    static int maxvalinRange(int[] arr,int start, int end){
+        int max = arr[start];
+        for (int i = start; i < end; i++) {
 
             if (max<arr[i]){
                 max=arr[i];

@@ -13,6 +13,7 @@ public class ArrayListExample {
         System.out.println(list.contains(562));
         System.out.println(list);
         list.set(0,99);
+        list.remove(4);
         System.out.println(list);
 
 

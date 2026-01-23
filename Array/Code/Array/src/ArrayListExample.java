@@ -32,7 +32,7 @@ public class ArrayListExample {
 
         //get item in any index
         for (int i = 0; i < 5; i++) {
-            System.out.print(list.get(i)+ " ");//pass index here
+            System.out.print(list.get(i)+ " ");//pass index here list of [index] syntax will not work here
         }
 
 

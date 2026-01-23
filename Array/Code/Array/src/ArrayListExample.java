@@ -28,10 +28,12 @@ public class ArrayListExample {
         list.add(in.nextInt());
         }
 
-       
 
-        //output
-        System.out.println(list);
+
+        //get item in any index
+        for (int i = 0; i < 5; i++) {
+            System.out.println(list.);
+        }
 
 
     }

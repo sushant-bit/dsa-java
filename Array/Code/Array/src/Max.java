@@ -10,33 +10,51 @@ public class Max {
         for (int i = 0; i < arr.length; i++) {
             arr[i] = sc.nextInt();
         }
-
+        reverse(arr);
         System.out.println(Arrays.toString(arr));
-        System.out.println(maxval(arr));
-        System.out.println(maxvalinRange(arr,2,10));
+
     }
 //imagine that arrray is not empty
-    static int maxval(int[] arr){
-        int max = arr[0];
-        for (int i = 1; i < arr.length; i++) {
-
-            if (max<arr[i]){
-                max=arr[i];
-            }
-        }
-        return max;
-    }
+//    static int maxval(int[] arr){
+//        int max = arr[0];
+//        for (int i = 1; i < arr.length; i++) {
+//
+//            if (max<arr[i]){
+//                max=arr[i];
+//            }
+//        }
+//        return max;
+//    }
 
 
     //max value in the range
-    static int maxvalinRange(int[] arr,int start, int end){
-        int max = arr[start];
-        for (int i = start; i <= end; i++) {
+//    static int maxvalinRange(int[] arr,int start, int end){
+//        int max = arr[start];
+//        for (int i = start; i <= end; i++) {
+//
+//            if (max<arr[i]){
+//                max=arr[i];
+//            }
+//        }
+//        return max;
+//    }
 
-            if (max<arr[i]){
-                max=arr[i];
+
+    //reversing the array
+    static void reverse(int[] arr){
+            int start=0;
+            int end=arr.length-1;
+            while(start<end){
+                //swap
+                swap(arr, start,end);
+                start++;
+                end--;
             }
-        }
-        return max;
+    }
+
+    static void swap(int[] arr, int index1, int index2){
+        int temp= arr[index1];
+        arr[index1]=arr[index2];
+        arr[index2]=temp;
     }
 }

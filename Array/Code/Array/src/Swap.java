@@ -10,7 +10,7 @@ public class Swap {
         int in2= sc.nextInt();
         swap(arr,in1,in2);
         System.out.println(Arrays.toString(arr));
-        
+
     }
 
     static void swap(int[] arr,int indexOne,int indextwo){

@@ -13,6 +13,7 @@ public class Max {
 
         System.out.println(Arrays.toString(arr));
         System.out.println(maxval(arr));
+        System.out.println(maxvalinRange(arr,2,10));
     }
 //imagine that arrray is not empty
     static int maxval(int[] arr){
@@ -30,7 +31,7 @@ public class Max {
     //max value in the range
     static int maxvalinRange(int[] arr,int start, int end){
         int max = arr[start];
-        for (int i = start; i < end; i++) {
+        for (int i = start; i <= end; i++) {
 
             if (max<arr[i]){
                 max=arr[i];

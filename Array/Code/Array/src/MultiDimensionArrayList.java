@@ -17,6 +17,6 @@ public class MultiDimensionArrayList {
             }
         }
 
-        System.out.print(mdarr);
+        System.out.println(mdarr);
     }
 }

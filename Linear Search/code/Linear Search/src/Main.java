@@ -1,9 +1,12 @@
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
     int [] arr = {1,2,23,453,53,464,4553,434,68,99};
-    int target=99;
+    int target= sc.nextInt();
     int ans = linearSearch(arr,target);
         System.out.println(ans);
     //find whether 14 exist in array or not
@@ -35,6 +38,6 @@ public class Main {
         }
         //this line will execute if the none of the return statement have executed
         //hence the target not found
-        
+        return -1;
     }
 }

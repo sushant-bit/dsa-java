@@ -6,8 +6,8 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
     int [] arr = {1,2,23,453,53,464,4553,434,68,99};
-    int target= sc.nextInt();
-    int ans = linearSearch(arr,target);
+    int target= 9;
+    boolean ans = linearSearch1(arr,target);
         System.out.println(ans);
     //find whether 14 exist in array or not
 
@@ -40,4 +40,23 @@ public class Main {
         //hence the target not found
         return -1;
     }
+
+    static boolean linearSearch1(int[] arr, int target){
+        if (arr.length==0){
+            return false;
+        }
+        //run a for loop
+
+        for (int index = 0; index < arr.length; index++) {
+            //check for every element if it is = target
+            int element=arr[index];
+            if (element==target){
+                return true;
+            }
+        }
+        //this line will execute if the none of the return statement have executed
+        //hence the target not found
+        return false;
+    }
+    
 }

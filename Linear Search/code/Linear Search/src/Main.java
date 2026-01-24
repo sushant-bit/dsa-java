@@ -58,5 +58,21 @@ public class Main {
         //hence the target not found
         return false;
     }
-    
+
+    static int linearSearch2(int[] arr, int target){
+        if (arr.length==0){
+            return -1;
+        }
+        //run a for loop
+
+        for (int element : arr) {
+            //check for every element if it is = target
+            if (element == target) {
+                return element;
+            }
+        }
+        //this line will execute if the none of the return statement have executed
+        //hence the target not found
+        return -1;
+    }
 }

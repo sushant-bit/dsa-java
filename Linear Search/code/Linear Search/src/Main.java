@@ -22,5 +22,10 @@ public class Main {
             return -1;
         }
         //run a for loop
+
+        for (int i = 0; i < arr.length; i++) {
+            
+
+        }
     }
 }

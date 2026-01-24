@@ -23,9 +23,12 @@ public class Main {
         }
         //run a for loop
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int index = 0; index < arr.length; index++) {
             //check for every element if it is = target
-            
+            int element=arr[index];
+            if (element==target){
+                return index;
+            }
         }
     }
 }

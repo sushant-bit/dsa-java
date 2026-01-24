@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
     int [] arr = {1,2,23,453,53,464,4553,434,68,99};
-    int target= 99;
+    int target= 9;
     boolean ans = linearSearch1(arr,target);
     int ans1 = linearSearch(arr,target);
     int ans2= linearSearch2(arr,target);
@@ -27,7 +27,7 @@ public class Main {
     //search in the array: return the index if item found otherwise if item not found return -1
     static int linearSearch(int[] arr, int target){
         if (arr.length==0){
-            return -1;
+            return Integer.MAX_VALUE;
         }
         //run a for loop
 
@@ -40,7 +40,7 @@ public class Main {
         }
         //this line will execute if the none of the return statement have executed
         //hence the target not found
-        return -1;
+        return Integer.MAX_VALUE;
     }
 
     static boolean linearSearch1(int[] arr, int target){

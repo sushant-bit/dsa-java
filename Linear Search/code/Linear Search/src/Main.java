@@ -6,9 +6,11 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
     int [] arr = {1,2,23,453,53,464,4553,434,68,99};
-    int target= 9;
+    int target= 99;
     boolean ans = linearSearch1(arr,target);
-        System.out.println(ans);
+    int ans1 = linearSearch(arr,target);
+    int ans2= linearSearch2(arr,target);
+        System.out.println(ans+ " "+ ans1 +" "+ ans2);
     //find whether 14 exist in array or not
 
 //        for (int i = 0; i < arr.length; i++) {

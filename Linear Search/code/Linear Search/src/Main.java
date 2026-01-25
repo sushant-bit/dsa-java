@@ -11,7 +11,7 @@ public class Main {
     int ans1 = linearSearch(arr,target);
     int ans2= linearSearch2(arr,target);
         System.out.println(ans+ " "+ ans1 +" "+ ans2);
-    //find whether 14 exist in array or not
+    //find whether 14 exist in array 
 
 //        for (int i = 0; i < arr.length; i++) {
 //            if (arr[i]==14){

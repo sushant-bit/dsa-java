@@ -57,7 +57,7 @@ public class Main {
             }
         }
         //this line will execute if the none of the return statement have executed
-        //hence the target not found
+        //hence the target not found so it will return false
         return false;
     }
 

@@ -65,9 +65,7 @@ public class Main {
         if (arr.length==0){
             return -1;
         }
-        //run a for loop
-
-        for (int element : arr) {
+          for (int element : arr) {
             //check for every element if it is = target
             if (element == target) {
                 return element;

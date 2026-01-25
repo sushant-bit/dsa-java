@@ -61,7 +61,10 @@ public class Main {
         return false;
     }
 
-    
+    static int linearSearch2(int[] arr, int target){
+        if (arr.length==0){
+            return -1;
+        }
         //run a for loop
 
         for (int element : arr) {

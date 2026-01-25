@@ -69,7 +69,11 @@ public class Main {
 
         for (int element : arr) {
             //check for every element if it is = target
-            ixecute if the none of the return statement have executed
+            if (element == target) {
+                return element;
+            }
+        }
+        //this line will execute if the none of the return statement have executed
         //hence the target not found
         return -1;
     }

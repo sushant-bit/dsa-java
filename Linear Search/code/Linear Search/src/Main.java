@@ -15,7 +15,7 @@ public class Main {
 
 //        for (int i = 0; i < arr.length; i++) {
 //            if (arr[i]==14){
-//                System.out.println("Yes this array Contain 14");
+//                System.out.println("Yes this arraxy Contain 14");
 //            }
 //            else {
 //                System.out.println("Opps not 14 in the array");

@@ -11,12 +11,14 @@ public class SearchIn2DArray {
         System.out.println(search(arr,target));
 
     }
-
     static int search(int[][] arr, int target){
         for (int row = 0; row < arr.length; row++) {
             for (int col = 0; col < arr[row].length; col++) {
-                
+                if (arr[row][col]==target){
+                    return target;
+                }
             }
         }
+        return -1;
     }
 }

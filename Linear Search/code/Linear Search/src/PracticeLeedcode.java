@@ -4,7 +4,10 @@ public class PracticeLeedcode {
     public static void main(String[] args) {
         int[] arr={12,232,54,45,65,543,565543};
         int result = Findnumber(arr);
+        int res2= (int)(Math.log10(arr[2]))+1;
+        System.out.println(res2);
         System.out.println(result);
+
     }
 
     static int Findnumber(int[] nums){

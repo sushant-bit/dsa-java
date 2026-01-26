@@ -1,6 +1,6 @@
 public class Findminnum {
     public static void main(String[] args) {
-        int[] arr ={23,2434,23,-1,23,33242,2,42423,342,3232,1};
+        int[] arr ={23,2434,23,-1,23,33242,2,42423,342,3232,1,-3};
         System.out.println(min(arr));
     }
 
@@ -12,10 +12,9 @@ public class Findminnum {
         for (int i = 1; i < arr.length; i++) {
            if (arr[i]<mini){
                mini=arr[i];
-               return mini;
            }
 
         }
-        return -1;
+        return mini;
     }
 }

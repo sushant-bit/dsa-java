@@ -22,16 +22,14 @@ public class MakingrandomProgram {
             for (int col = 0; col < column; col++) {
                 System.out.print(arr[row][col]+" ");
             }
-
             System.out.println();
         }
 
-        System.out.println(arr);
+        System.out.println(arr[0][1]);
 
-        
+        System.out.println("Richest person have: "+ maxWealth(arr));
 
     }
-
 
     static int maxWealth(int[][] accounts){
         int maxwealth=0;

@@ -24,8 +24,7 @@ public class MakingrandomProgram {
             }
             System.out.println();
         }
-
-        System.out.println(arr[0][1]);
+        
 
         System.out.println("Richest person have: "+ maxWealth(arr));
 

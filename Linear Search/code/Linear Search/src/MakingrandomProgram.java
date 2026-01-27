@@ -9,4 +9,20 @@ public class MakingrandomProgram {
         int column = sc.nextInt();
         int[][] arr = new int[rows][column];
     }
+
+
+    static int maxWealth(int[][] accounts){
+        int maxwealth=0;
+        for (int money = 0; money < accounts.length ; money++) {
+            int sum =0;
+            for (int bank = 0; bank < accounts[money].length; bank++) {
+                sum+= accounts[money][bank];
+            }
+
+            if (sum>maxwealth){
+                maxwealth=sum;
+            }
+        }
+        return maxwealth;
+    }
 }

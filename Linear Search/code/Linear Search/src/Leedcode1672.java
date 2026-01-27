@@ -3,7 +3,8 @@ public class Leedcode1672 {
 
         int [][] account={
                 {323,23,2323,23},
-                {232,323,35,34,54}
+                {232,323,35,34,54},
+                {23,45667,675,6566}
         };
         int result = wealthy(account);
         System.out.println(result);

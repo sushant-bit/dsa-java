@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class MakingrandomProgram {
@@ -9,12 +10,13 @@ public class MakingrandomProgram {
         int column = sc.nextInt();
         int[][] arr = new int[rows][column];
 
+        //asking user input
         for (int row = 0; row < rows; row++) {
             for (int col = 0; col < column; col++) {
                 arr[row][col]= sc.nextInt();
             }
-
         }
+
     }
 
 

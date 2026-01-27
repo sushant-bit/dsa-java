@@ -8,6 +8,13 @@ public class MakingrandomProgram {
         System.out.print("Enter a column how many you want in 2D array: ");
         int column = sc.nextInt();
         int[][] arr = new int[rows][column];
+
+        for (int row = 0; row < rows; row++) {
+            for (int col = 0; col < column; col++) {
+                arr[row][col]= sc.nextInt();
+            }
+
+        }
     }
 
 

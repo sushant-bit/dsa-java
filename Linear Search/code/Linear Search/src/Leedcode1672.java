@@ -20,6 +20,6 @@ public class Leedcode1672 {
                 ans=sum;
             }
         }
-        return ans;
+        return ans; // this will return the answer
     }
 }

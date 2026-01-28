@@ -1,6 +1,8 @@
 public class OrderAgnosticBinarySearch {
     public static void main(String[] args) {
-        int
+        int[] arr={10,20,30,40,50,67,705,5440};
+        int[] arr2={100,90,40,23,12,5,4,3,-12,-16};
+        System.out.println(orderAgnosticBinarySearch(arr2,3));
 
     }
 

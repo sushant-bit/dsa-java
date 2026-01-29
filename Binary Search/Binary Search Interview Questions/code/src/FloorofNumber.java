@@ -1,7 +1,7 @@
 public class FloorofNumber {
     public static void main(String[] args) {
         int[] arr ={2,3,5,9,14,16,18};
-        System.out.println(floorOfnum(arr,17));
+        System.out.println(floorOfnum(arr,200));
 
     }
 

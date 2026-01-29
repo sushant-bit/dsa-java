@@ -18,6 +18,6 @@ public class CeilingOfNumber {
                 return mid;
             }
         }
-        return start;
+        return start; // when the condition is violated so it will return the start. which is the closest greatest number of the target
     }
 }

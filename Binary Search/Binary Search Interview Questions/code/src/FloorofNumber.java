@@ -6,7 +6,7 @@ public class FloorofNumber {
     }
 
     static int floorOfnum(int[] arr, int target){
-        if (target>arr[arr.length-1]){
+        if (target>arr[arr.length-1]){ //if the target is greater than the end of the element of the array.
             return -1;
         }
         int start=0;

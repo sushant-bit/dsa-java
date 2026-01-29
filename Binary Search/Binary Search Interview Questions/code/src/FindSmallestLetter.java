@@ -5,7 +5,7 @@
 public class FindSmallestLetter {
     public static void main(String[] args) {
         char [] arr ={'c','f','j'};
-        System.out.println(smallestletter(arr,'f'));
+        System.out.println(smallestletter(arr,'k'));
     }
     static  char smallestletter(char[] letters, char target){
         int start=0;

@@ -19,6 +19,6 @@ public class FloorofNumber {
                 return mid;
             }
         }
-        return end;
+        return end; // when the condition is violated so it will return the end. which is the closest smallest number of the target
     }
 }

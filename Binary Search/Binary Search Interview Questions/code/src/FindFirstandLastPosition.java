@@ -1,10 +1,12 @@
 //leetcode problem number 34
 public class FindFirstandLastPosition {
     public static void main(String[] args) {
-
+        int [] arr = {1,4,5,5,5,6,7,8,8,10};
+        int[] ans=searchRange(arr,5);
+        System.out.println(ans);
     }
 
-    public int[] searchRange(int[] nums, int target) {
+    static int[] searchRange(int[] nums, int target) {
         int[] ans={-1,-1};
         int start = search(nums,target,true);
         int end = search(nums,target,false);
@@ -16,7 +18,7 @@ public class FindFirstandLastPosition {
     }
 
     //this function just return the index value of target
-    int search(int[] nums, int target, boolean findstartindex){
+    static int search(int[] nums, int target, boolean findstartindex){
         int ans=-1;
         int start =0;
         int end=nums.length;

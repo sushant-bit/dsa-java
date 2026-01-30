@@ -5,6 +5,7 @@ public class FindFirstandLastPosition {
     }
 
     public int[] searchRange(int[] nums, int target) {
+        int[] ans={-1,-1};
         int start =0;
         int end=nums.length;
         while(start<=end){
@@ -15,10 +16,10 @@ public class FindFirstandLastPosition {
                 start=mid+1;
             }
             else{
-                //
+                //potential ans find
                 if (target<)
             }
         }
-        return nums[-1,-1];
+        return ans;
     }
 }

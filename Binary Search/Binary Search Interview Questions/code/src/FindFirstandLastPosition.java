@@ -5,6 +5,7 @@ public class FindFirstandLastPosition {
     }
 
     public int[] searchRange(int[] nums, int target) {
+        int start = search(nums,target,true);
         int[] ans={-1,-1};
         int start =0;
         int end=nums.length;
@@ -24,7 +25,7 @@ public class FindFirstandLastPosition {
     }
 
     //this function just return the index value of target
-    int searcj(int[] nums, int target, boolean findstartindex){
+    int search(int[] nums, int target, boolean findstartindex){
         int ans=-1;
         int start =0;
         int end=nums.length;
@@ -38,7 +39,7 @@ public class FindFirstandLastPosition {
             else{
                 //potential ans find
                 ans=mid;
-                if (findstartindex){
+                if (findstartindex ){
                     end=mid-1;
                 }
                 else {

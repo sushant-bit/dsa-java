@@ -1,9 +1,11 @@
+import java.util.Arrays;
+
 //leetcode problem number 34
 public class FindFirstandLastPosition {
     public static void main(String[] args) {
         int [] arr = {1,4,5,5,5,6,7,8,8,10};
-        int[] ans=searchRange(arr,5);
-        System.out.println(ans);
+        int[] ans=searchRange(arr,8);
+        System.out.println(Arrays.toString(ans));
     }
 
     static int[] searchRange(int[] nums, int target) {

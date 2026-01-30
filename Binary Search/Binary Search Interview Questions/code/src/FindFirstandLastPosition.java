@@ -15,7 +15,8 @@ public class FindFirstandLastPosition {
                 start=mid+1;
             }
             else{
-                return ;
+                //
+                if (target<)
             }
         }
         return nums[-1,-1];

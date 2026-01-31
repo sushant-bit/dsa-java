@@ -23,7 +23,7 @@ public class FindFirstandLastPosition {
     static int search(int[] nums, int target, boolean findstartindex){
         int ans=-1;
         int start =0;
-        int end=nums.length;
+        int end=nums.length-1;
         while(start<=end){
             int mid= start+(end-start)/2;
             if(target<nums[mid]){

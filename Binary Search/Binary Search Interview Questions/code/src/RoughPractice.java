@@ -3,7 +3,7 @@ import java.util.Arrays;
 public class RoughPractice {
     public static void main(String[] args) {
      int[] arr = {2,4,8,8,9,10,11,12,13};
-     int target=8;
+     int target=9;
      int[] result=firstandlast(arr,target);
         System.out.println(Arrays.toString(result));
     }

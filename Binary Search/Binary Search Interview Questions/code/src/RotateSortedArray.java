@@ -4,7 +4,32 @@ public class RotateSortedArray {
         System.out.println(findPivot(arr));
     }
 
-    static int binarySearchPivot()
+    static int binarySearchPivot(int[] arr,int target){
+        int pivot=findPivot(arr);
+        //if you didnot find the pivot, it means the array is not rotated
+        if (pivot==-1){
+            //just do normal binarysearch
+            return binarySearch(arr,target,0,arr.length-1);
+        }
+        else if(arr[pivot]==target){
+            return pivot;
+        }
+        
+    }
+    static int binarySearch(int[] arr, int target, int start,int end){
+        while (start<=end){
+            int mid= start+(end-start)/2;
+            if (target>arr[mid]){
+                start=mid+1;
+            } else if (target<arr[mid]) {
+                end=mid-1;
+            }
+            else {
+                return mid;
+            }
+        }
+        return -1;
+    }
     static int findPivot(int[] arr){
         int start=0;
         int end = arr.length-1;

@@ -3,6 +3,12 @@ public class RotateSortedArray {
         int[] arr={1,2,3,4,5,6,7,8};
         System.out.println(searchInRotateArray(arr,1));
     }
-    
+    static int findPivot(int[] arr){
+        int start=0;
+        int end = arr.length-1;
+        while (start<=end){
+            int mid = start+(end-start)/2;
+        }
+    }
 
 }

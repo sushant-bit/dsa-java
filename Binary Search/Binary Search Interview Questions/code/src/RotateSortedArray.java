@@ -8,10 +8,10 @@ public class RotateSortedArray {
         while (start<=end){
             int mid = start+(end-start)/2;
             //four cases
-            if (arr[mid]>arr[mid+1]){
+            if (mid<end && arr[mid]>arr[mid+1]){
                 return mid;
             }
-            if (arr[mid]<arr[mid+1]){
+            if (arr[mid]<arr[mid-1]){
                 return mid-1;
             }
 

@@ -15,7 +15,7 @@ public class RotateSortedArray {
             return pivot;
         }
         else if(target>=arr[0]){
-            
+            return binarySearch(arr,target)
         }
     }
     static int binarySearch(int[] arr, int target, int start,int end){

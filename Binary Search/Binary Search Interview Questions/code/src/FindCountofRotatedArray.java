@@ -7,7 +7,7 @@ int[] arr={2,4,5,7,0,1,3,6};
     private static int countRotations(int[] arr) {
 
     }
-    
+
     static int findPivot(int[] arr){
         int start=0;
         int end = arr.length-1;
@@ -25,8 +25,6 @@ int[] arr={2,4,5,7,0,1,3,6};
             else{
                 start=mid+1;
             }
-
-
         }
         return -1;
     }

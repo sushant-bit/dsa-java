@@ -6,10 +6,6 @@ int[] arr={1,2,3,4,5};
 
     private static int countRotations(int[] arr) {
         int pivot =findPivot(arr);
-//        if (pivot==-1){
-//            //this mean arrays is not rotated
-//            return 0;
-//        }
         return pivot+1;
     }
 

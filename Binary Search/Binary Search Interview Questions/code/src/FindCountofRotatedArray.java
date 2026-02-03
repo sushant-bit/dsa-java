@@ -1,6 +1,6 @@
 public class FindCountofRotatedArray {
     public static void main(String[] args) {
-int[] arr={2,4,5,7,0,1,3,6};
+int[] arr={1,2,3,4,5};
         System.out.println(countRotations(arr));
     }
 

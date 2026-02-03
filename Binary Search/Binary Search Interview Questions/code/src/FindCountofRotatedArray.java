@@ -6,6 +6,9 @@ int[] arr={2,4,5,7,0,1,3,6};
 
     private static int countRotations(int[] arr) {
         int pivot =findPivot(arr);
+        if (pivot==-1){
+            
+        }
     }
 
     static int findPivot(int[] arr){

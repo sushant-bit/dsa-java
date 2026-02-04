@@ -3,8 +3,9 @@
 // Space: O(1)
 public class BinarySearch_704 {
     public static void main(String[] args) {
-
-
+        int[] arr={1,2,34,344,444,555};
+        int target=555;
+        
     }
 
     static int search(int[] nums, int target) {

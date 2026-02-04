@@ -1,7 +1,7 @@
 public class BinarySearch_35 {
     public static void main(String[] args) {
         int[] arr={1,3,5,9};
-        System.out.println(searchInsert(arr,2));
+        System.out.println(searchInsert(arr,4));
     }
 
     static int searchInsert(int[] arr,int target){

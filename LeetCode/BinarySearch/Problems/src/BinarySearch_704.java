@@ -7,7 +7,7 @@ public class BinarySearch_704 {
 
     }
 
-    public int search(int[] nums, int target) {
+    static int search(int[] nums, int target) {
         int start=0;
         int end =nums.length-1;
 

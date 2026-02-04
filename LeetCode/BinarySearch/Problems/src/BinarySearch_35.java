@@ -8,6 +8,9 @@ public class BinarySearch_35 {
         int end = arr.length-1;
         while (start<=end){
             int mid = start+(end-start)/2;
+            if (target>arr[mid]){
+                start=mid+1;
+            }
         }
     }
 }

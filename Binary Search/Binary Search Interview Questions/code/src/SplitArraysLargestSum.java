@@ -1,7 +1,9 @@
 //problem no 410 leetcode #Hard-Type
 public class SplitArraysLargestSum {
     public static void main(String[] args){
-
+        int[] arr={2,4,8,10,15,17,21,33};
+        int target=2;
+        System.out.println(binarySearch(arr,target));
     }
     static int binarySearch(int arr[],int target){
         int start=0;

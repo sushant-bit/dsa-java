@@ -1,9 +1,10 @@
 //367. Valid Perfect Square
 public class Problem_367 {
     public static void main(String[] args) {
-
+        System.out.println(isPerfectSquare(64));
+        
     }
-    public boolean isPerfectSquare(int num) {
+    static boolean isPerfectSquare(int num) {
         if(num<2){
             return true;
         }

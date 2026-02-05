@@ -1,6 +1,6 @@
 public class BinarySearch_278 {
     public static void main(String[] args) {
-
+        System.out.println(firstBadVersion(5));
     }
 
 

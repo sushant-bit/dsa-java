@@ -2,7 +2,7 @@
 public class Problem_367 {
     public static void main(String[] args) {
         System.out.println(isPerfectSquare(64));
-        
+
     }
     static boolean isPerfectSquare(int num) {
         if(num<2){

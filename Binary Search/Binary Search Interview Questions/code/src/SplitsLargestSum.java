@@ -12,11 +12,29 @@ public class SplitsLargestSum {
         }
         while (start<end){
             //try for the middle as potential answer
-            int mi=start+(end-start)/2;
-
+            int mid=start+(end-start)/2;
+            int sum=0;
+            int pieces=1;
+            for (int num: nums){
+                if (sum+num>mid){
+                    //you cannot add this in this subarray, make new one
+                    //you add this num in new subarray, then sum = num
+                    sum=num;
+                    pieces++;
+                }
+                else {
+                    sum+=num;
+                }
+            }
+            if (pieces>k){
+                start=mid+1;
+            }
+            else {
+                end=mid;
+            }
         }
         return end;
     }
 
-    
+
 }

@@ -3,6 +3,10 @@ public class SplitsLargestSum {
 
     }
 
+    public int splitArray(int[] nums, int k) {
+
+    }
+
     static int binarySearch(int[] arr, int target){
         int start=0;
         int end = arr.length-1;

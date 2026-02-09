@@ -12,7 +12,7 @@ public class SearchIn2DLeetcod_240 {
                 {10,13,14,17,24},
                 {18,21,23,26,30}
         };
-        System.out.println(searchMatrix(arr,5));
+        System.out.println(searchMatrix(arr,30));
     }
 
     static boolean searchMatrix(int[][] matrix, int target) {

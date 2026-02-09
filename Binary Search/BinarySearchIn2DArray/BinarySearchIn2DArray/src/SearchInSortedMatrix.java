@@ -26,5 +26,15 @@ public class SearchInSortedMatrix {
         if (row==1){
             return binarySearch(matrix,0,0,col-1,target);
         }
+
+        int rstart=0;
+        int rend=row-1;
+        int cMid=col/2;
+        //run the loop till 2 rows are remaining
+        while (rstart<(rend-1)){
+
+        }
+
+
     }
 }

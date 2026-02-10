@@ -1,6 +1,14 @@
+import java.util.Arrays;
+
 public class SearchInSortedMatrix {
     public static void main(String[] args) {
-
+        int[][] arr = {
+                {10, 12, 15, 18, 20},
+                {22, 25, 28, 30, 35},
+                {40, 42, 45, 48, 50},
+                {55, 60, 65, 70, 75}
+        };
+        System.out.print(Arrays.toString(SearchIn2DSortedMatrix(arr,70)));
     }
 
  static int[] SearchIn2DSortedMatrix(int[][] arr, int target){

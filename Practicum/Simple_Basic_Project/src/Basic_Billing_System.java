@@ -18,6 +18,60 @@ public class Basic_Billing_System {
         System.out.println("105: PS-5 (Rs" + ps + ")");
         System.out.println("106: MacBook");
         System.out.println("107: Mobile Phone");
+    }
+
+    static int mobile(Scanner sc){
+        int mobile_total_price=0;
+        boolean shopping=true;
+        while(shopping){
+            System.out.println("Select a Phone");
+            System.out.println("1: Samsung Galaxy S25 Ultra (12/256GB) - Rs. 184999");
+            System.out.println("2: Samsung Galaxy A36 5G (8/256GB) - Rs. 54999");
+            System.out.println("3: Apple iPhone 17 (512GB) - Rs. 197999");
+            System.out.println("4: Xiaomi 15 Ultra (16/512GB) - Rs. 149999");
+            System.out.println("5: OnePlus 12 (16/512GB) - Rs. 139999");
+            System.out.println("6: Vivo V50 5G (12/256GB) - Rs. 67999");
+            System.out.println("7: Realme C67 5G (6/128GB) - Rs. 21999");
+            System.out.println("8: Redmi Note 14 5G (8/256GB) - Rs. 29999");
+            System.out.println("9: OnePlus Nord CE3 (12/256GB) - Rs. 38499");
+            System.out.println("0: Finish adding phones");
+            System.out.print("Enter choice: ");
+            int choice= sc.nextInt();
+
+            if(choice == 1){
+                System.out.println(" Added Samsung Galaxy S25 Ultra to Your cart");
+            }
+            else if(choice == 2){
+                System.out.println(" Added Samsung Galaxy A36 5G to Your cart");
+            }
+            else if(choice == 3){
+                System.out.println(" Added Apple iPhone 17 to Your cart");
+            }
+            else if(choice == 4){
+                System.out.println(" Added Xiaomi 15 Ultra to Your cart");
+            }
+            else if(choice == 5){
+                System.out.println(" Added OnePlus 12 to Your cart");
+            }
+            else if(choice == 6){
+                System.out.println(" Added Vivo V50 5G to Your cart");
+            }
+            else if(choice == 7){
+                System.out.println(" Added Realme C67 5G to Your cart");
+            }
+            else if(choice == 8){
+                System.out.println(" Added Redmi Note 14 5G to Your cart");
+            }
+            else if(choice == 9){
+                System.out.println(" Added OnePlus Nord CE3 to Your cart");
+            } else if (choice==0) {
+                shopping=false; // this will break the loop and return the total amount.
+            }
+            else{
+                System.out.println("Invalid output");
+            }
+        }
+        return mobile_total_price;
 
     }
 

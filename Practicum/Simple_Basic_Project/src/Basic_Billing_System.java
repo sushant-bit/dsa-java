@@ -6,7 +6,7 @@ public class Basic_Billing_System {
         System.out.println("------->Welcome to Eleven Store<-------");
         System.out.println("Enter the Product ID to Add Item to Your Cart");
         System.out.println("---->Product Details<----");
-        int total_bill;
+        int total_bill=0;
         int key = 1199;
         int mou = 499;
         int st = 450;
@@ -19,7 +19,41 @@ public class Basic_Billing_System {
         System.out.println("105: PS-5 (Rs" + ps + ")");
         System.out.println("106: MacBook List");
         System.out.println("107: Mobile Phone List");
-        System.out.println("Enter Product ID You Want to Buy");
+        System.out.println("Please Enter Your Name: ");
+        String name = sc.nextLine();
+        boolean shopping=true;
+        while (shopping){
+            System.out.println("Enter Product ID of Item You Want to Buy. Press 0 to Finish Buying");
+            int product_id= sc.nextInt();
+            if (product_id==101){
+                total_bill+=key;
+                System.out.println("Added Keyboard to Your Cart.");
+            } else if (product_id==102) {
+                total_bill+=mou;
+                System.out.println("Added Mouse to Your Cart.");
+            } else if (product_id==103) {
+                total_bill+=st;
+                System.out.println("Added Laptop Stand to Your Cart.");
+            }else if (product_id==104) {
+                total_bill+=us;
+                System.out.println("Added USB-C to Your Cart.");
+            }
+            else if (product_id==105) {
+                total_bill+=ps;
+                System.out.println("Added PS-5 to Your Cart.");
+            }else if (product_id==106) {
+                total_bill+=macbook(sc);
+            }else if (product_id==107) {
+                total_bill+=mobile(sc);
+            }else if(product_id==0){
+                shopping=false;
+            }
+            else {
+                System.out.println("Invalid Product ID!");
+            }
+        }
+        System.out.println("Name: "+name + "\nBill Amount: Rs. "+ total_bill+ "\n-----Thank You For Visiting Eleven Store :)-----");
+
 
 
     }

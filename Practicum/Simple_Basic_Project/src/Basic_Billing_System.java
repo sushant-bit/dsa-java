@@ -27,6 +27,7 @@ public class Basic_Billing_System {
             int product_id= sc.nextInt();
             if (product_id==101){
                 total_bill+=key;
+
                 System.out.println("Added Keyboard to Your Cart.");
             } else if (product_id==102) {
                 total_bill+=mou;

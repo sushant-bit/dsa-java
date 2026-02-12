@@ -49,8 +49,9 @@ public class Basic_Billing_System {
                 total_bill+=mobile(sc);
             }else if(product_id==0){
                 shopping=false;
-            }
-            else {
+            } else if (product_id==108) {
+                    total_bill+=graphicCard(sc);
+            } else {
                 System.out.println("Invalid Product ID!");
             }
         }
@@ -164,6 +165,37 @@ public class Basic_Billing_System {
         }
 
         return macbook_total_price;
+    }
+    static int graphicCard(Scanner sc){
+        int graphic_total_price=0;
+        boolean shopping=true;
+        while (shopping){
+            System.out.println("Select Graphic Cards ID to Buy. Press 0 to Finish Buying. ");
+            System.out.println("1: RTX 4060 - Rs. 55000");
+            System.out.println("2: RTX 4060 Ti - Rs. 80000");
+            System.out.println("3: RX 7600 - Rs. 49000");
+            System.out.println("4: RTX 4070 - Rs. 110000");
+            int choice= sc.nextInt();
+            if (choice==1){
+                graphic_total_price+=55000;
+                System.out.println("Addded RTX 4060 to Your Cart.");
+            } else if (choice==2) {
+                graphic_total_price+=80000;
+                System.out.println("Addded RTX 4060 Ti to Your Cart.");
+            }else if (choice==3) {
+                graphic_total_price+=49000;
+                System.out.println("Addded RX 7600 Ti to Your Cart.");
+            }else if (choice==4) {
+                graphic_total_price+=110000;
+                System.out.println("Addded RTX 4070 Ti to Your Cart.");
+            }else if (choice==0) {
+                shopping=false;
+            }
+            else {
+                System.out.println("Invalid ID");
+            }
+        }
+        return graphic_total_price;
     }
 
 

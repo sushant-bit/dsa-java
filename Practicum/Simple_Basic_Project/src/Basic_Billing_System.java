@@ -19,6 +19,7 @@ public class Basic_Billing_System {
         System.out.println("105: PS-5 (Rs" + ps + ")");
         System.out.println("106: MacBook List");
         System.out.println("107: Mobile Phone List");
+        System.out.println("108: Graphics Card");
         System.out.println("Please Enter Your Name: ");
         String name = sc.nextLine();
         boolean shopping=true;

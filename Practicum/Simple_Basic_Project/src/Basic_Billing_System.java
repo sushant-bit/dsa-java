@@ -209,7 +209,7 @@ public class Basic_Billing_System {
             System.out.println("2.  Bouquet of 12 Roses    Rs. 2,500");
             System.out.println("3.  Heart-Shaped Cake    Rs. 1,200");
             System.out.println("4.  Premium Chocolate Box    Rs. 1,500");
-            System.out.println("5. 50 Roses, 2lb Cake, Teddy, and Ring.    Rs. 3500");
+            System.out.println("5. 50 Roses, 2lb Cake, Teddy, and Ring.    Rs. 7500");
             System.out.print("Enter Choice: ");
             int choice=sc.nextInt();
             if (choice==1){
@@ -218,6 +218,24 @@ public class Basic_Billing_System {
             } else if (choice==2) {
                 total_amount+=2500;
                 System.out.println("Bouquet of 12 Roses Added to Your Cart.");
+            }else if (choice == 3) {
+                total_amount += 1200;
+                System.out.println("Heart-Shaped Cake Added to Your Cart.");
+            }
+            else if (choice == 4) {
+                total_amount += 1500;
+                System.out.println("Premium Chocolate Box Added to Your Cart.");
+            }
+            else if (choice == 5) {
+                total_amount += 7500;
+                System.out.println("Valentine Mega Package (50 Roses, Cake, Teddy, Ring) Added to Your Cart.");
+            }
+            else if (choice == 0) {
+                shopping=false;
+
+            }
+            else {
+                System.out.println("Invalid Choice! Please select a valid Item ID.");
             }
         }
     }

@@ -215,6 +215,9 @@ public class Basic_Billing_System {
             if (choice==1){
                 total_amount+=250;
                 System.out.println("Single Red Rose Added to Your Cart.");
+            } else if (choice==2) {
+                total_amount+=2500;
+                System.out.println("Bouquet of 12 Roses Added to Your Cart.");
             }
         }
     }

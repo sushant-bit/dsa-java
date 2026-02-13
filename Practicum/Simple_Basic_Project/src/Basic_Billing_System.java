@@ -232,12 +232,12 @@ public class Basic_Billing_System {
             }
             else if (choice == 0) {
                 shopping=false;
-
             }
             else {
                 System.out.println("Invalid Choice! Please select a valid Item ID.");
             }
         }
+        return total_amount;
     }
 
 }

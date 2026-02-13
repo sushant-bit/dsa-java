@@ -204,6 +204,7 @@ public class Basic_Billing_System {
         int total_amount=0;
         boolean shopping=true;
         while (shopping){
+            System.out.println("Welcome to Valentine's Package Section \uD83D\uDE4F"); //use unicode of Namaste emoji
             System.out.println("Select Item through there ID. Press 0 to Finish Buying");
             System.out.println("1. Single Red Rose    Rs. 250");
             System.out.println("2.  Bouquet of 12 Roses    Rs. 2,500");

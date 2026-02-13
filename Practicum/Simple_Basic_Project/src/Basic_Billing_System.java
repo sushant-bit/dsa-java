@@ -20,6 +20,7 @@ public class Basic_Billing_System {
         System.out.println("106: MacBook List");
         System.out.println("107: Mobile Phone List");
         System.out.println("108: Graphics Card");
+        System.out.println("109: Valentine's Package");
         System.out.println("Please Enter Your Name: ");
         String name = sc.nextLine();
         boolean shopping=true;
@@ -51,6 +52,8 @@ public class Basic_Billing_System {
                 shopping=false;
             } else if (product_id==108) {
                     total_bill+=graphicCard(sc);
+            } else if (product_id==109) {
+                total_bill+=valentineOffer(sc);
             } else {
                 System.out.println("Invalid Product ID!");
             }
@@ -202,7 +205,7 @@ public class Basic_Billing_System {
         boolean shopping=true;
         while (shopping){
             System.out.println("Select Item through there ID. Press 0 to Finish Buying");
-            
+
         }
     }
 

@@ -200,6 +200,10 @@ public class Basic_Billing_System {
     static int valentineOffer(Scanner sc){
         int total_amount=0;
         boolean shopping=true;
+        while (shopping){
+            System.out.println("Select Item through there ID. Press 0 to Finish Buying");
+            
+        }
     }
 
 }

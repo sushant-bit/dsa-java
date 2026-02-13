@@ -205,7 +205,17 @@ public class Basic_Billing_System {
         boolean shopping=true;
         while (shopping){
             System.out.println("Select Item through there ID. Press 0 to Finish Buying");
-
+            System.out.println("1. Single Red Rose    Rs. 250");
+            System.out.println("2.  Bouquet of 12 Roses    Rs. 2,500");
+            System.out.println("3.  Heart-Shaped Cake    Rs. 1,200");
+            System.out.println("4.  Premium Chocolate Box    Rs. 1,500");
+            System.out.println("5. 50 Roses, 2lb Cake, Teddy, and Ring.    Rs. 3500");
+            System.out.print("Enter Choice: ");
+            int choice=sc.nextInt();
+            if (choice==1){
+                total_amount+=250;
+                System.out.println("Single Red Rose Added to Your Cart.");
+            }
         }
     }
 

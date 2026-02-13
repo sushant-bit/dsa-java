@@ -197,6 +197,8 @@ public class Basic_Billing_System {
         }
         return graphic_total_price;
     }
-
+    static int valentineOffer(Scanner sc){
+        
+    }
 
 }

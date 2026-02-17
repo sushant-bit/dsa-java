@@ -14,5 +14,6 @@ public class Problem_832_FlippinganImage {
             }
 
         }
+        return new int[][] {{-1,-1}};
     }
 }

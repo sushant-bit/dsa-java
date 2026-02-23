@@ -1,7 +1,11 @@
+import java.util.Arrays;
+
 //88. Merge Sorted Array
 public class Problem_88_MergedArray {
     public static void main(String[] args) {
-        
+        int[] arr={1,2,3,4,0,0,0,0};
+        int[] arr1={1,7,8,9};
+        merge(arr,4,arr1,4);
 
     }
 
@@ -25,5 +29,7 @@ public class Problem_88_MergedArray {
             n--;
             lastInd--;
         }
+
+        System.out.println(Arrays.toString(nums1));
     }
 }

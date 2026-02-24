@@ -15,6 +15,6 @@ public class Problem_136 {
                 }
             }
         }
-        return -1; 
+        return -1;
     }
 }

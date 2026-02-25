@@ -1,6 +1,10 @@
+import java.util.Arrays;
+
 public class Problem_34{
     public static void main(String[] args) {
-
+    int[] arr={1,2,3,4,5,8,8};
+    int[] result=searchRange(arr,8);
+        System.out.println(Arrays.toString(result));
 
     }
 
@@ -28,7 +32,7 @@ public class Problem_34{
             }
 
         }
-        return -1;
+        return ans;
     }
 
     static int secondTarget(int[] arr, int target){
@@ -49,7 +53,7 @@ public class Problem_34{
             }
 
         }
-        return -1;
+        return ans;
     }
 
 

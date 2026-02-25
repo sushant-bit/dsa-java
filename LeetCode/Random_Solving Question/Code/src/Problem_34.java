@@ -1,6 +1,13 @@
 public class Problem_34{
     public static void main(String[] args) {
 
+
+    }
+
+    static int[] searchRange(int[] arr,int target){
+        int first=firstTarget(arr, target);
+        int second=secondTarget(arr, target);
+        return new int[]{first,second};
     }
 
     static int firstTarget(int[] arr, int target){

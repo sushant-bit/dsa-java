@@ -1,9 +1,11 @@
 public class Problem_134 {
     public static void main(String[] args) {
-    
+//     int[] arr={1,2,3,43};
+//     int[] cost={1,3}; // this input cause error length of cost and array should be equal
+        System.out.println(canCompleteCircuit(arr,cost));
     }
 
-    public int canCompleteCircuit(int[] gas, int[] cost) {
+    static int canCompleteCircuit(int[] gas, int[] cost) {
 
         int totalGas = 0;
         int totalKharcha = 0;

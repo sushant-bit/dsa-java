@@ -8,6 +8,7 @@ public class Main {
     }
 
     static void bubbleSort(int[]arr){
+        boolean swap=false;
         //first run the steps n-1 times
         for (int i = 0; i < arr.length; i++) {
             //for each step max item will come last at the respective index
@@ -18,7 +19,13 @@ public class Main {
                     int temp=arr[j];
                     arr[j]=arr[j-1];
                     arr[j-1]=temp;
+                    swap=true;
                 }
+            }
+
+            //if swap isnot occured it means the array is sorted hence stop the program
+            if (!swap){
+                break;
             }
         }
     }

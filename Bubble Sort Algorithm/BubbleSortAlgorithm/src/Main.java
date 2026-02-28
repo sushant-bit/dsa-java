@@ -8,9 +8,10 @@ public class Main {
     }
 
     static void bubbleSort(int[]arr){
-        boolean swap=false;
+        boolean swap;
         //first run the steps n-1 times
         for (int i = 0; i < arr.length; i++) {
+            swap = false;
             //for each step max item will come last at the respective index
             for (int j = 1; j < arr.length-i; j++) {
             //swap if the item is smaller than the previous item

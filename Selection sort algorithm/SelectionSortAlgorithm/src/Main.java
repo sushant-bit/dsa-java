@@ -13,6 +13,13 @@ public class Main {
         }
     }
 
+    static void swap(int[]arr,int first,int second){
+        int temp=arr[first];
+        arr[first]=arr[second];
+        arr[second]=temp;
+
+    }
+
     static int getMaxIndex(int[]arr,int start,int end){
         int max=start;
         for (int i = start; i <=end; i++) {

@@ -1,15 +1,19 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-
+    int[] arr={12,32,456,77,22,43,5,6};
+    selctionSort(arr);
+        System.out.println(Arrays.toString(arr));
 
     }
 
     static void selctionSort(int[] arr){
         for (int i = 0; i < arr.length; i++) {
             //find the maximum item in the remaining array and swap it with correct index
-            int lastIndex= arr.length-i-0;
+            int lastIndex= arr.length-i-1;
             int maxIndex=getMaxIndex(arr,0,lastIndex);
-
+            swap(arr,maxIndex,lastIndex);
         }
     }
 

@@ -9,7 +9,18 @@ public class Main {
             //find the maximum item in the remaining array and swap it with correct index
             int lastIndex= arr.length-i-0;
             int maxIndex=getMaxIndex(arr,0,lastIndex);
-            
+
         }
+    }
+
+    static int getMaxIndex(int[]arr,int start,int end){
+        int max=start;
+        for (int i = start; i <=end; i++) {
+            if (arr[max]<arr[i]){
+                max=i;
+            }
+
+        }
+        return max;
     }
 }

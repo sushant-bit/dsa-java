@@ -9,6 +9,7 @@ public class Random {
         System.out.println(checkSorted(arr2));
         System.out.println(average(arr2));
         System.out.println(Arrays.toString(negativenum(arr2)));
+        System.out.println(Arrays.toString(findDuplicates(arr)));
     }
 
     static void moveAllZeroLast(int[]arr){
@@ -63,5 +64,38 @@ public class Random {
         }
 
         return negarr;
+    }
+
+    static  int[] findDuplicates(int[] arr) {
+        int n = arr.length;
+        int[] tempur = new int[n]; // store duplicates
+        int count = 0;
+
+        for (int i = 0; i < n; i++) {
+            boolean isDuplicate = false;
+            for (int k = 0; k < count; k++) {
+                if (tempur[k] == arr[i]) {
+                    isDuplicate = true;
+                    break;
+                }
+            }
+
+            if (!isDuplicate) {
+                for (int j = i + 1; j < n; j++) {
+                    if (arr[i] == arr[j]) {
+                        tempur[count] = arr[i];
+                        count++;
+                        break;
+                    }
+                }
+            }
+        }
+
+        int[] res = new int[count];
+        for (int i = 0; i < count; i++) {
+            res[i] = tempur[i];
+        }
+
+        return res;
     }
 }

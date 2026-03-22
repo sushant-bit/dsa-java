@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Random {
     public static void main(String[] args) {
@@ -169,7 +170,7 @@ public class Random {
         return maxLen;
     }
 
-    
+
     static int countNegatives(int[] arr) {
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
@@ -178,6 +179,20 @@ public class Random {
             }
         }
         return count;
+    }
+
+     static void meshTopologyPortCounter(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Enter number of nodes: ");
+        int n = sc.nextInt();
+
+        int tl = (n * (n - 1)) / 2;
+        int tp = n * (n - 1);
+
+        System.out.println("Total links required: " + tl);
+        System.out.println("Total ports required: " + tp);
+        
     }
 
 

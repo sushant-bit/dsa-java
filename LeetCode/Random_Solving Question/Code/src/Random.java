@@ -192,7 +192,24 @@ public class Random {
 
         System.out.println("Total links required: " + tl);
         System.out.println("Total ports required: " + tp);
-        
+
+    }
+
+    static int secondLargest(int[] arr) {
+        int largest = arr[0];
+        int secondlrg = -1;
+
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > largest) {
+                secondlrg = largest;
+                largest = arr[i];
+            }
+            else if (arr[i] > secondlrg && arr[i] != largest) {
+                secondlrg = arr[i];
+            }
+        }
+
+        return secondlrg;
     }
 
 
